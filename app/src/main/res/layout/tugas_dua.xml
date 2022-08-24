@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:src="@drawable/header_profile" />
+
+    <TextView
+        android:id="@+id/usertitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_centerInParent="true"
+        android:paddingTop="50dp"
+        android:paddingBottom="30dp"
+        android:text="@string/your_username"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/id_user"
+        android:layout_below="@+id/usertitle"
+        app:cardCornerRadius="25dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange_edit"
+            android:hint="ID User                                                   null"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/email"
+        android:layout_below="@+id/id_user"
+        app:cardCornerRadius="25dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange_edit"
+            android:hint="Email"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logout"
+        android:layout_below="@+id/email"
+        app:cardCornerRadius="45dp"
+        android:padding="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:padding="15dp"
+            android:text="@string/logout"
+            android:background="@drawable/rounded_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/bar_menu" />
+
+    <TextView
+        android:text="@string/home"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:text="@string/pay"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:text="@string/profile"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/tab_profile"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/user" />
+
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/orange_edit"
+        android:padding="15dp"
+        android:src="@drawable/qr_code_scan" />
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Chapter2Topic4</string>
+    <string name="transaksi_buku">Transaksi Buku</string>
+    <string name="transaksi_penjualan_buku">Transaksi Penjualan Buku</string>
+    <string name="data_buku_tambah_buku">Data Buku || Tambah Buku</string>
+    <string name="data_piutang_buku">Data Piutang Buku</string>
+    <string name="laporan_penjualan_buku">Laporan Penjualan Buku</string>
+    <string name="transaksi_pesantren_bulanan">Transaksi Pesantren Bulanan</string>
+    <string name="pendaftaran_santri_baru">Pendaftaran Santri Baru</string>
+    <string name="kas_d_k">Kas (D/K)</string>
+    <string name="data_piutang_bulanan">Data Piutang Bulanan</string>
+    <string name="laporan_keuangan">Laporan Keuangan</string>
+    <string name="your_username">Your Username</string>
+    <string name="logout">LOGOUT</string>
+    <string name="home">Home</string>
+    <string name="pay">Pay</string>
+    <string name="profile">Profile</string>
+</resources>
